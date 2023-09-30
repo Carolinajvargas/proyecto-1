@@ -1,20 +1,47 @@
-table,
-td {
-  border: 1px solid #333;
+body { 
+    display:flex;
+    gap: 4px;
+    max-height: fit-content;
+}
+.left{ 
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(131, 86, 176);
+    width: 30%;
+    min-width: 250px;
 }
 
 
-thead,
-tfoot {
-  background-color: #333;
-  color: #fff;
+.image{ 
+   display:flex;
+   align-items: center;
+
 }
 
-.tablas {
+img {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 100%; 
+}
+
+.right {
     display: flex;
-    float: left;
-    margin: 10px;
-    background-color: red;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+.right div {
+    display: flex;
+    flex-direction: column;
+}
 
+.right h3 {
+    background-color: rgb(131, 86, 176);
+    border-radius: 6px;
+    padding: 1px;
+    text-align: center;
+    color: beige;
 }
